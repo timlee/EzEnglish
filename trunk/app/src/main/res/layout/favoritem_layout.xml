@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:text="New Text"
+        android:id="@+id/worditem"
+        android:textSize="21dp" />
+
+    <TextView
+        android:layout_width="205dp"
+        android:layout_height="55dp"
+        android:text="New Text3"
+        android:id="@+id/meanitem"
+        android:textSize="18dp"
+        android:layout_marginLeft="10dp"
+        android:longClickable="true"
+        android:layout_weight="1.31" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btndelete"
+        android:src="@android:drawable/ic_delete"
+        android:background="#62ccb9b9"
+        android:layout_margin="0dp" />
+
+    <ImageButton
+        android:layout_width="37dp"
+        android:layout_height="37dp"
+        android:id="@+id/btnadd"
+        android:src="@android:drawable/ic_input_add"
+        android:layout_margin="0dp" />
+
+</LinearLayout>

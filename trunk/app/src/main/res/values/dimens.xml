@@ -1,0 +1,17 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+	<!-- 頂部按鈕欄高度 -->
+    <dimen name="pickerview_topbar_height">44dp</dimen>
+    <!-- 頂部按鈕paddingLeft -->
+    <dimen name="pickerview_topbar_paddingleft">10dp</dimen>
+    <!-- 頂部按鈕paddingRight -->
+    <dimen name="pickerview_topbar_paddingright">30dp</dimen>
+    <!-- 頂部按鈕文字大小 -->
+    <dimen name="pickerview_topbar_btn_textsize">20sp</dimen>
+    <dimen name="pickerview_topbar_title_textsize">21sp</dimen>
+    <!-- 選項文字大小 需要配合 bools.xml 的 pickerview_customTextSize 為 true 才有效果-->
+    <dimen name="pickerview_textsize">20sp</dimen>
+</resources>

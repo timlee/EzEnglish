@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ans1"
+        android:id="@+id/btn_ans1"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ans2"
+        android:id="@+id/btn_ans2"
+        android:layout_below="@+id/btn_ans1"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ans3"
+        android:id="@+id/btn_ans3"
+        android:layout_below="@+id/btn_ans2"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ans4"
+        android:id="@+id/btn_ans4"
+        android:layout_below="@+id/btn_ans3"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="skip"
+        android:id="@+id/btn_single_skip"
+        android:layout_below="@+id/btn_ans4"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="game question"
+        android:id="@+id/single_question"
+        android:layout_above="@+id/btn_ans1"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/btn_single_skip"
+        android:background="@color/accent_material_dark"
+        android:layout_below="@+id/single_test_timer" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="200"
+        android:id="@+id/single_test_timer"
+        android:textSize="40dp"
+        android:textColor="#ffffff"
+        android:background="@android:color/holo_red_light"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="答對"
+        android:id="@+id/record＿label"
+        android:textSize="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/right_answer" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:id="@+id/right_answer"
+        android:layout_alignParentEnd="true"
+        android:layout_above="@+id/single_question"
+        android:textSize="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/btn_single_skip"
+        android:textColor="@android:color/holo_green_dark" />
+
+</RelativeLayout>

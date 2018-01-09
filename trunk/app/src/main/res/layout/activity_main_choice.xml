@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></LinearLayout>
+
+    <Button
+        android:layout_width="213dp"
+        android:layout_height="wrap_content"
+        android:text="單字學習"
+        android:id="@+id/button_learnWord"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="20dp"
+        android:background="@android:color/holo_blue_light" />
+
+    <Button
+        android:layout_width="213dp"
+        android:layout_height="wrap_content"
+        android:text="搜尋新增單字"
+        android:id="@+id/button_searchWord"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:background="@android:color/holo_blue_light"
+        android:textSize="20dp" />
+
+    <Button
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:text="實力測驗"
+        android:id="@+id/button_gameTest"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:background="@android:color/holo_blue_light"
+        android:textSize="20dp" />
+
+    <Button
+        android:layout_width="213dp"
+        android:layout_height="wrap_content"
+        android:text="設定時間提醒"
+        android:id="@+id/button_settingTime"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.00"
+        android:layout_marginBottom="20dp"
+        android:background="@android:color/holo_blue_light"
+        android:textSize="20dp" />
+
+    <Button
+        android:layout_width="214dp"
+        android:layout_height="wrap_content"
+        android:text="我的最愛單字"
+        android:id="@+id/button_favor"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="50dp"
+        android:background="@android:color/holo_blue_light"
+        android:textSize="20dp" />
+</LinearLayout>

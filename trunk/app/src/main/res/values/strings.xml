@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ezEnglish</string>
+    <string name="action_settings">Settings</string>
+    <string name="search">Search</string>
+	<string name="pickerview_cancel">取消</string>
+    <string name="pickerview_submit">確定</string>
+    <string name="pickerview_year">年</string>
+    <string name="pickerview_month">月</string>
+    <string name="pickerview_day">日</string>
+    <string name="pickerview_hours">時</string>
+    <string name="pickerview_minutes">分</string>
+    <string name="pickerview_seconds">秒</string>
+    <string name="ok">OK</string>
+</resources>
